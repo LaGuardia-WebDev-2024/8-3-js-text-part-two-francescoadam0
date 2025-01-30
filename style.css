@@ -1,0 +1,28 @@
+/* Background Pattern Found at Link Below
+https://codepen.io/poonam-adlakha/pen/qBorjWY */
+
+html {
+  background-size: 100px 100px;
+  background-position: 0 0, 25px 25px, 50px 50px;
+  text-align: center;
+}
+
+body {
+background: radial-gradient(#e2c3e5 5px, 
+      white 10px 65px, #e2c3e5  1px ) ;
+    background-size: 100px 100px ; 
+}
+
+h1,
+h2 {
+  background-color: #75077d ;
+  border-radius: 20px;
+  color: white;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+#myCanvas {
+  border: 5px solid  #75077d;
+  border-radius: 30px;
+}
